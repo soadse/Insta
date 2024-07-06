@@ -2,6 +2,7 @@
 :root {
     --color01: #B2DFFC;
     --color02: lightgray;
+    --color03: #425F9D;
 }
 
 * {
@@ -83,4 +84,5 @@ body {
 #container01 > #fb > a {
     text-decoration: none;
     margin-left: 10px;
+    color: var(--color03);
 }
