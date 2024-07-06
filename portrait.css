@@ -3,6 +3,7 @@
     --color01: #B2DFFC;
     --color02: lightgray;
     --color03: #425F9D;
+    --color04: #4A95F6;
 }
 
 * {
@@ -87,9 +88,27 @@ body {
     color: var(--color03);
     font-weight: bolder;
 }
+/* ----------------------------------- */
 #container01 > #esqueceuSenha {
     margin-top: 20px;
 }
 #container01 > #esqueceuSenha > a {
     text-decoration: none;
+}
+/* =================================== */
+#container02 {
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container02 > p {
+    color: black;
+}
+#container02 > a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+    color: var(--color04);
 }
