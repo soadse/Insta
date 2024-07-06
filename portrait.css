@@ -134,3 +134,30 @@ body {
 #container03 > div img {
     width: 95%; 
 }
+/* ================================= */
+#container04 {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#container04 > a {
+    text-decoration: none;
+    color: gray;
+    padding-right: 10px;
+}
+/* =================================== */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > a {
+    text-decoration: none;
+    color: darkgray;
+    padding-bottom: 50px;
+}
