@@ -85,4 +85,11 @@ body {
     text-decoration: none;
     margin-left: 10px;
     color: var(--color03);
+    font-weight: bolder;
+}
+#container01 > #esqueceuSenha {
+    margin-top: 20px;
+}
+#container01 > #esqueceuSenha > a {
+    text-decoration: none;
 }
