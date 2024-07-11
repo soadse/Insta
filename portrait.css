@@ -144,7 +144,7 @@ body {
     width: 95%; 
 }
 /* ================================= */
-#containerPrincipal > #container04 {
+#container04 {
     width: 100%;
     margin: auto;
     padding-top: 20px;
@@ -153,7 +153,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
-#containerPrincipal > #container04 > a {
+#container04 > a {
     text-decoration: none;
     color: gray;
     padding: 5px;
