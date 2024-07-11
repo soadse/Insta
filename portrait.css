@@ -123,6 +123,7 @@ body {
 #containerPrincipal > #container03 {
     width: 80%;
     margin: auto;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
