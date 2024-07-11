@@ -159,14 +159,3 @@ body {
     padding: 5px;
 }
 /* =================================== */
-footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-footer > a {
-    text-decoration: none;
-    color: darkgray;
-    padding: 30px;
-}
