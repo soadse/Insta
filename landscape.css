@@ -9,35 +9,28 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
 }
 #containerPrincipal {
-    width: 100%;
-    height: 100vh;
+    background-color: red;
 }
-/* ------------------------------------- */
+/* ======================== */
 #containerPrincipal > #container01 {
-    width: 100%;
-    margin-top: 50px;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 1px solid var(--color02);
 }
 #containerPrincipal > #container01 > img {
     width: 150px;
-    padding-bottom: 30px;
+    margin-bottom: 50px;
 }
-/* ------------------------------------ */
+/* --------------------------- */
 #containerPrincipal > #container01 > form {
     width: 80%;
     display: flex;
@@ -61,10 +54,9 @@ body {
     border-radius: 5px;
     margin-top: 10px;
 }
-/* ------------------------------------ */
+/* ----------------------- */
 #containerPrincipal > #container01 > #linha {
     width: 80%;
-    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,12 +70,11 @@ body {
 #containerPrincipal > #container01 > #linha > p {
     margin: 10px;
 }
-/* ------------------------------------ */
+/* ----------------- */
 #containerPrincipal > #container01 > #fb {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 }
 #containerPrincipal > #container01 > #fb > img {
     width: 20px;
@@ -95,21 +86,21 @@ body {
     color: var(--color03);
     font-weight: bolder;
 }
-/* ----------------------------------- */
+/* ----------------- */
 #containerPrincipal > #container01 > #esqueceuSenha {
-    padding: 10px;
+    margin-top: 20px;
 }
 #containerPrincipal > #container01 > #esqueceuSenha > a {
     text-decoration: none;
 }
-/* =================================== */
+/* ====================== */
 #containerPrincipal > #container02 {
-    width: 80%;
-    margin: auto;
-    padding: 10px;
+    width: 20%;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid var(--color02);
 }
 #containerPrincipal > #container02 > p {
     color: black;
@@ -120,11 +111,10 @@ body {
     margin-left: 5px;
     color: var(--color04);
 }
-/* ================================= */
-#containerPrincipal > #container03 {
-    width: 80%;
-    margin: auto;
-    padding-top: 20px;
+/* ================= */
+#containerPrincipal > #containerPrincipal > #container03 {
+    width: 20%;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,11 +133,11 @@ body {
 #containerPrincipal > #container03 > div img {
     width: 95%; 
 }
-/* ================================= */
-#containerPrincipal > #container04 {
-    width: 100%;
-    margin: auto;
-    padding-top: 20px;
+/* ==================== */
+#containerPrincipal > #containerPrincipal > #container04 {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,16 +147,4 @@ body {
     text-decoration: none;
     color: gray;
     padding: 5px;
-}
-/* =================================== */
-footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-footer > a {
-    text-decoration: none;
-    color: darkgray;
-    padding: 30px;
 }
