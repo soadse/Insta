@@ -4,33 +4,57 @@
     --color02: lightgray;
     --color03: #425F9D;
     --color04: #4A95F6;
+    --color05: #FAFAFA;
 }
 
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
+    padding-top: 100px;
+    background-color: whitesmoke;
+}
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+#frame {
+    width: 370PX;
+    margin-right: 20px;
 }
 #containerPrincipal {
-    background-color: red;
+    width: 27%;
+    height: 100%;
+    margin-top: 40px;
 }
-/* ======================== */
+/* ------------------------------------- */
 #containerPrincipal > #container01 {
-    width: 20%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border: 1px solid var(--color02);
+    background-color: white;
 }
 #containerPrincipal > #container01 > img {
     width: 150px;
-    margin-bottom: 50px;
+    margin: 30px;
 }
-/* --------------------------- */
+/* ------------------------------------ */
 #containerPrincipal > #container01 > form {
     width: 80%;
     display: flex;
@@ -40,7 +64,7 @@ body {
 }
 #containerPrincipal > #container01 > form > input {
     width: 100%;
-    height: 40px;
+    height: 35px;
     padding-left: 5px;
     margin-bottom: 5px;
     border: 1px solid var(--color02);
@@ -54,9 +78,10 @@ body {
     border-radius: 5px;
     margin-top: 10px;
 }
-/* ----------------------- */
+/* ------------------------------------ */
 #containerPrincipal > #container01 > #linha {
     width: 80%;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,11 +95,12 @@ body {
 #containerPrincipal > #container01 > #linha > p {
     margin: 10px;
 }
-/* ----------------- */
+/* ------------------------------------ */
 #containerPrincipal > #container01 > #fb {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 #containerPrincipal > #container01 > #fb > img {
     width: 20px;
@@ -86,21 +112,23 @@ body {
     color: var(--color03);
     font-weight: bolder;
 }
-/* ----------------- */
+/* ----------------------------------- */
 #containerPrincipal > #container01 > #esqueceuSenha {
-    margin-top: 20px;
+    padding: 10px;
 }
 #containerPrincipal > #container01 > #esqueceuSenha > a {
     text-decoration: none;
 }
-/* ====================== */
+/* =================================== */
 #containerPrincipal > #container02 {
-    width: 20%;
-    margin-top: 50px;
+    width: 88%;
+    margin-top: 10px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid var(--color02);
+    background-color: white;
 }
 #containerPrincipal > #container02 > p {
     color: black;
@@ -111,10 +139,11 @@ body {
     margin-left: 5px;
     color: var(--color04);
 }
-/* ================= */
-#containerPrincipal > #containerPrincipal > #container03 {
-    width: 20%;
-    margin-top: 50px;
+/* ================================= */
+#containerPrincipal > #container03 {
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,18 +162,32 @@ body {
 #containerPrincipal > #container03 > div img {
     width: 95%; 
 }
-/* ==================== */
-#containerPrincipal > #containerPrincipal > #container04 {
-    width: 80%;
-    margin-top: 50px;
-    margin-bottom: 20px;
+/* ================================= */
+footer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+footer > div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
-#containerPrincipal > #container04 > a {
+footer > div > a {
     text-decoration: none;
     color: gray;
     padding: 5px;
 }
+footer > a {
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: darkgray;
+}
+/* =================================== */
