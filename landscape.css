@@ -202,7 +202,7 @@ footer > a {
 
 @media (width <= 480) {
     body {
-        background-color: red;
+        background-color: blue;
     }
     #frame {
         display: none;
