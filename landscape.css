@@ -251,9 +251,6 @@ footer > a {
     #containerPrincipal > #container03 > div > a {
         width: 30%;
         padding: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     #containerPrincipal > #container03 > div > a > img {
         width: 100%;
