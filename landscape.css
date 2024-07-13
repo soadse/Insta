@@ -200,7 +200,7 @@ footer > a {
 }
 /* =================================== */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 640px) {
     body {
         background-color: red;
     }
