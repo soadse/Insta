@@ -200,7 +200,10 @@ footer > a {
 }
 /* =================================== */
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+    body {
+        background-color: red;
+    }
     #frame {
         display: none;
     }
