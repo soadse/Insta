@@ -200,7 +200,7 @@ footer > a {
 }
 /* =================================== */
 
-@media screen and (max-width <= 760px) {
+@media screen and (width <= 850px) {
     body {
         background-color: blue;
     }
