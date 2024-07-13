@@ -200,7 +200,7 @@ footer > a {
 }
 /* =================================== */
 
-@media (width <= 800) {
+@media (width <= 800px) {
     body {
         background-color: blue;
     }
