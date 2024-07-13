@@ -202,12 +202,12 @@ footer > a {
 
 @media screen and (width <= 850px) {
     body {
-        padding-top: 150px;
+        padding-top: 100px;
     }
     #inicio {
         width: 90%;
         height: 100%;   
-        padding-bottom: 200px;
+        padding-bottom: 100px;
         background-color: red;
     }
     #frame {
