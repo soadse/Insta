@@ -202,14 +202,22 @@ footer > a {
 
 @media screen and (width <= 850px) {
     body {
-        background-color: blue;
+        padding-top: 200px;
+    }
+    #inicio {
+        width: 90%;
+        height: 100%;   
+        padding-bottom: 200px;
     }
     #frame {
-        width: 250PX;
-        margin-right: 20px;
+        width: 50%;
+        margin-top: 200px;
     }
     #containerPrincipal {
-        width: 27%;
-        height: 50%;
+        width: 50%;
+    }
+    
+    footer {
+        
     }
 }
